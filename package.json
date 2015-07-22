@@ -4,7 +4,7 @@
   "description": "Dashboard for the Bench dev TV.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "node-babel": "nodemon --exec babel-node --stage 0 -- index.js"
   },
   "repository": {
     "type": "git",
@@ -13,5 +13,14 @@
   "bugs": {
     "url": "https://github.com/JoshConley/bench-tv-dashboard/issues"
   },
-  "homepage": "https://github.com/JoshConley/bench-tv-dashboard"
+  "homepage": "https://github.com/JoshConley/bench-tv-dashboard",
+  "devDependencies": {
+    "babel": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^4.13.1",
+    "jade": "^1.11.0",
+    "node-sass-middleware": "^0.9.0",
+    "request": "^2.60.0"
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "name": "bench-tv-dashboard",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/JoshConley/bench-tv-dashboard",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
