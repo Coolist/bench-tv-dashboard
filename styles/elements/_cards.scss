@@ -1,0 +1,43 @@
+.cards {
+  .card {
+    box-sizing: border-box;
+    padding: 20px 20px 20px 0;
+    width: 50%;
+    display: inline-block;
+    margin-right: -0.25em;
+
+    &:first-child {
+      padding-left: 20px;
+    }
+  }
+
+  .inner {
+    display: block;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .axis path {
+    fill: none;
+    stroke: #777;
+    shape-rendering: crispEdges;
+  }
+
+  .axis text {
+    font-family: sans-serif;
+    font-size: 12px;
+
+  }
+
+  #id_0 {
+    stroke: $water;
+  }
+
+  #id_1 {
+    stroke: $orange;
+  }
+
+  #id_2 {
+    stroke: $gold;
+  }
+}

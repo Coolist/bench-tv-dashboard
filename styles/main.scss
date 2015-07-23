@@ -1,5 +1,6 @@
-@import './resources/_variables';
+// Resources
+@import "resources/_variables";
 
-body {
-  background: $sand;
-}
+// Elements
+@import "elements/base";
+@import "elements/cards";
