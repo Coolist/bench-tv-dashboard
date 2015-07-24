@@ -13,12 +13,20 @@
 
   .chart .line {
     fill: none;
-    stroke: $charcoal;
+    stroke: $orange;
     stroke-width: 2px;
+
+    &.id_1 {
+      stroke: $water;
+    }
   }
 
   .chart .area {
-    fill: rgba(lighten($charcoal, 40%), 0.6);
+    fill: rgba(lighten($orange, 10%), 0.3);
+
+    &.id_1 {
+      fill: rgba(lighten($water, 40%), 0.6);
+    }
   }
 
   .chart .axis text {
@@ -43,9 +51,13 @@
     shape-rendering: crispEdges;
   }
 
-  .chart .points circle {
+  .chart .points .point {
     fill: $sand;
-    stroke: $charcoal;
+    stroke: $orange;
     stroke-width: 2px;
+  }
+
+  .chart .points.id_1 .point {
+    stroke: $water;
   }
 }
